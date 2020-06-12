@@ -23,12 +23,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     
-    - name: npm install
-      run: npm install
+    #- name: npm install
+    #  run: npm install
       
     #Install packages
-    - name: Install packages
-      run: npm install --save katalon-studio/katalon-agent#v1.4.0
+    #- name: Install packages
+    #  run: npm install --save katalon-studio/katalon-agent#v1.4.0
 
     # Runs Katalon Studio Action
     - name: Katalon Studio Github Action
