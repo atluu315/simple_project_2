@@ -29,7 +29,7 @@ jobs:
 
     # Runs Katalon Studio Action
     - name: Katalon Studio Github Action
-      uses: atluu315/Katalon_Studio_Github_Action@1.0
+      uses: atluu315/Katalon_Studio_Github_Action@1.1
       with:
           version: '7.5.5'
           projectPath: '${{ github.workspace }}\simple_project_2.prj'
